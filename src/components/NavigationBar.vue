@@ -97,6 +97,11 @@ export default {
         left: 23.9%;
     }
 
+    #logoBG{
+        transition: all .3s ease-in-out;
+        transform: scale(133%);
+    }
+
 
     #navText{
         color: rgb(6, 57, 6);
@@ -118,6 +123,7 @@ export default {
     
     #navBar{
         background-color: rgb(180, 247, 242);
+        width: 100%;
     }
 
     @media (max-width: 950px) {
