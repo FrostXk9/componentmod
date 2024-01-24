@@ -122,7 +122,8 @@ export default {
     }
     
     #navBar{
-        background-color: rgb(180, 247, 242);
+        /* background-color: rgb(180, 247, 242); */
+        background-color: whitesmoke;
         width: 100%;
     }
 
