@@ -7,7 +7,7 @@
 
         <button id="btn">
 
-          Know more
+          Know more <i class="fa-solid fa-arrow-right-long fa-sm" style="color: #ffffff;"></i>
 
         </button>
 

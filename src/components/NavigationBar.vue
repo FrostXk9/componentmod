@@ -104,7 +104,7 @@ export default {
 
 
     #navText{
-        color: rgb(6, 57, 6);
+        color: rgb(16, 91, 16);
         font-weight: 800;
     }
 
@@ -123,8 +123,14 @@ export default {
     
     #navBar{
         /* background-color: rgb(180, 247, 242); */
-        background-color: whitesmoke;
+        background-color: rgb(255, 255, 255);
         width: 100%;
+        position: fixed;
+        top: 0;
+        height: auto;
+        width: 100%;
+        z-index: 1;
+        /* mix-blend-mode: difference; */
     }
 
     @media (max-width: 950px) {

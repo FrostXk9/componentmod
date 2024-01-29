@@ -1,12 +1,12 @@
 <template>
-
+<!-- data-aos="fade-up" data-aos-anchor-placement="center-center" -->
   <div class="position-relative overflow-hidden p-3 text-center" id="landingPage">
 
     <div class="col-md-6 p-lg-5 mx-auto my-5">
-
+      
       <div id="rotate">
         <div class="rtpov">
-          <p>We teach</p>
+          <p>We Teach</p>
           <div class="words">
             <span class="word">Innovative</span>
             <span class="word">Excelence</span>
@@ -31,6 +31,11 @@
       
     </div>
 
+    <div class="container">
+      <h3>Stay updated with us <i class="fa-regular fa-calendar-check fa-lg" style="color: #000000;"></i></h3>
+      <p class="small text-center">Build your knowledge in money</p>
+    </div>
+
     <div class="comtainer-fluid my-4 mx-4 p-1 d-flex justify-content-evenly" id="iconBox">
 
       <div class="d-flex">
@@ -39,7 +44,13 @@
           <path d="M53.0281 10.7168C49.1527 6.22382 44.032 2.98097 38.3135 1.3983C32.595 -0.184371 26.5357 -0.0357775 20.9017 1.82529C15.2676 3.68636 10.312 7.17631 6.66145 11.8538C3.01089 16.5313 0.829356 22.1863 0.392713 28.1037C-0.0439294 34.021 1.28393 39.935 4.20838 45.0977C7.13283 50.2603 11.5225 54.4399 16.8223 57.1078C22.1222 59.7756 28.0941 60.812 33.9829 60.0859C39.8718 59.3597 45.413 56.9036 49.906 53.0281L44.0946 46.2908C40.9342 49.0168 37.0363 50.7445 32.894 51.2553C28.7517 51.7661 24.5509 51.0371 20.8229 49.1605C17.0949 47.2838 14.0071 44.3439 11.95 40.7123C9.89292 37.0808 8.95888 32.9208 9.26602 28.7584C9.57316 24.5961 11.1077 20.6182 13.6756 17.328C16.2434 14.0377 19.7293 11.5828 23.6924 10.2737C27.6555 8.96461 31.9177 8.86009 35.9402 9.97337C39.9627 11.0867 43.5647 13.3677 46.2908 16.5282L53.0281 10.7168Z" fill="#88CB34"/>
           
         </svg>
-        <p id="text">Lorem ipsum dolor</p>
+
+        <div id="text">Check out latest Events
+          <div>
+            <button class="btn mt-1" id="">Book Event</button>
+          </div>
+        </div>
+
       </div>
 
       <div class="d-flex">
@@ -48,7 +59,11 @@
           <path d="M53.0281 10.7168C49.1527 6.22382 44.032 2.98097 38.3135 1.3983C32.595 -0.184371 26.5357 -0.0357775 20.9017 1.82529C15.2676 3.68636 10.312 7.17631 6.66145 11.8538C3.01089 16.5313 0.829356 22.1863 0.392713 28.1037C-0.0439294 34.021 1.28393 39.935 4.20838 45.0977C7.13283 50.2603 11.5225 54.4399 16.8223 57.1078C22.1222 59.7756 28.0941 60.812 33.9829 60.0859C39.8718 59.3597 45.413 56.9036 49.906 53.0281L44.0946 46.2908C40.9342 49.0168 37.0363 50.7445 32.894 51.2553C28.7517 51.7661 24.5509 51.0371 20.8229 49.1605C17.0949 47.2838 14.0071 44.3439 11.95 40.7123C9.89292 37.0808 8.95888 32.9208 9.26602 28.7584C9.57316 24.5961 11.1077 20.6182 13.6756 17.328C16.2434 14.0377 19.7293 11.5828 23.6924 10.2737C27.6555 8.96461 31.9177 8.86009 35.9402 9.97337C39.9627 11.0867 43.5647 13.3677 46.2908 16.5282L53.0281 10.7168Z" fill="#88CB34"/>
           
         </svg>
-        <p id="text">Lorem ipsum dolor</p>
+        <div id="text">Webinars happening:
+          <div>
+            <button class="btn mt-1">View Live</button>
+          </div>
+        </div>
       </div>
 
       <div class="d-flex">
@@ -57,27 +72,101 @@
           <path d="M53.0281 10.7168C49.1527 6.22382 44.032 2.98097 38.3135 1.3983C32.595 -0.184371 26.5357 -0.0357775 20.9017 1.82529C15.2676 3.68636 10.312 7.17631 6.66145 11.8538C3.01089 16.5313 0.829356 22.1863 0.392713 28.1037C-0.0439294 34.021 1.28393 39.935 4.20838 45.0977C7.13283 50.2603 11.5225 54.4399 16.8223 57.1078C22.1222 59.7756 28.0941 60.812 33.9829 60.0859C39.8718 59.3597 45.413 56.9036 49.906 53.0281L44.0946 46.2908C40.9342 49.0168 37.0363 50.7445 32.894 51.2553C28.7517 51.7661 24.5509 51.0371 20.8229 49.1605C17.0949 47.2838 14.0071 44.3439 11.95 40.7123C9.89292 37.0808 8.95888 32.9208 9.26602 28.7584C9.57316 24.5961 11.1077 20.6182 13.6756 17.328C16.2434 14.0377 19.7293 11.5828 23.6924 10.2737C27.6555 8.96461 31.9177 8.86009 35.9402 9.97337C39.9627 11.0867 43.5647 13.3677 46.2908 16.5282L53.0281 10.7168Z" fill="#88CB34"/>
           
         </svg>
-        <p id="text">Lorem ipsum dolor</p>
+        <div id="text">Our new Products:
+          <div>
+            <button class="btn mt-1">View shop</button>
+          </div>
+        </div>
       </div>
-
-  
     </div>
     
   </div>
 
+  <!-- data-aos="fade-right" data-aos-anchor-placement="center-center" -->
+  <div id="checkEvents">
+    <div class="container pt-5">
+      <h1 class="text-center pt-2 display-4 fw-bold text-uppercase" data-aos="fade-up" data-aos-anchor-placement="center-center">What are we about</h1>
+      <!-- <ImageLoader /> -->
+      <div class="container d-flex justify-content-evenly">
+        <div id="cardOne" data-aos="fade-right" data-aos-anchor-placement="center-center">
+
+        </div>
+        <div id="card" data-aos="fade-left" data-aos-anchor-placement="center-center">
+
+        </div>
+      </div>
+
+      <!-- <div id="bg">
+  
+      </div> -->
+    </div>
+    <!-- <div>
+      <img src="https://cdn-thumbs.imagevenue.com/41/d0/1a/ME17JSVH_t.jpg" alt="">
+    </div> -->
+  </div>
+    
+
 </template>
 
 <script>
+
+import AOS from 'aos';
 import ButtonComp from './ButtonComp.vue';
+import ImageLoader from './ImageLoader.vue';
+
 export default {
   components : {
-    ButtonComp
+    ButtonComp,
+    ImageLoader
+  },
+  
+  mounted(){
+    AOS.init()
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#landingPage{
+  background-image: url("https://cdn-images.imagevenue.com/8d/4d/d7/ME17JAM6_o.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* #bg{
+  background-image: url("https://cdn-images.imagevenue.com/cc/18/fa/ME17JSYC_o.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 50%;
+  height: 300px;
+  width: 300px;
+} */
+
+#card{
+  height: 190px;
+  width: 190px;
+  border: 1px solid black;
+  background-image: url("https://cdn-images.imagevenue.com/cc/18/fa/ME17JSYC_o.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#cardOne{
+  height: 190px;
+  width: 190px;
+  border: 1px solid black;
+}
+
+#checkEvents{
+  min-height: 100vh;
+  background-color: rgb(227, 227, 227);
+  
+}
+
+
 #rotate {
   --bg-color: #21212100;
   display: flex;
@@ -90,7 +179,7 @@ export default {
   color: rgb(0, 216, 0);
 }
 .rtpov {
-  color: rgb(124, 124, 124);
+  color: rgb(0, 0, 0);
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -181,7 +270,6 @@ a {
   color: rgb(14, 87, 205);
   font-weight: bold;
 }
-
 
 @media (max-width: 550px) {
   #iconBox{
