@@ -41,7 +41,7 @@
 
                         <li class="nav-item">
 
-                        <router-link to="/" class="nav-link" href="#" id="navText">Our mission</router-link>
+                        <router-link to="/ourMission" class="nav-link" href="#" id="navText">Our mission</router-link>
 
                         </li>
 
@@ -53,7 +53,7 @@
 
                         <li class="nav-item">
 
-                            <router-link to="/" class="nav-link" href="#" id="navText">Careers</router-link>
+                            <router-link to="/Events" class="nav-link" href="#" id="navText">Events</router-link>
 
                         </li>
 

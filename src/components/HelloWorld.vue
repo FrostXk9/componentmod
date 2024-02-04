@@ -20,7 +20,7 @@
       <div class="display-2 fw-bold text-black">Twelve Two <span id="floatLikeInt">2</span></div>
       <!-- <h5>We grow 2</h5> -->
 
-        <h3 class="fw-normal text-black text-start small mb-5 my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla eius totam possimus maxime? Ipsa quo illo vitae vero eum, repellat commodi inventore omnis rem molestias quaerat quisquam suscipit incidunt! Tempora!</h3>
+        <h3 class="fw-normal text-black text-start fs-4 mb-5 my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla eius totam possimus maxime? Ipsa quo illo vitae vero eum, repellat commodi inventore omnis rem molestias quaerat quisquam suscipit incidunt! Tempora!</h3>
 
       <div class="d-flex gap-3 justify-content-center lead fw-normal">
 
@@ -83,10 +83,9 @@
   </div>
 
   <!-- data-aos="fade-right" data-aos-anchor-placement="center-center" -->
-  <div id="checkEvents">
+  <!-- <div id="checkEvents">
     <div class="container pt-5">
       <h1 class="text-center pt-2 display-4 fw-bold text-uppercase" data-aos="fade-up" data-aos-anchor-placement="center-center">What are we about</h1>
-      <!-- <ImageLoader /> -->
       <div class="container d-flex justify-content-evenly">
         <div id="cardOne" data-aos="fade-right" data-aos-anchor-placement="center-center">
 
@@ -96,14 +95,10 @@
         </div>
       </div>
 
-      <!-- <div id="bg">
-  
-      </div> -->
+
     </div>
-    <!-- <div>
-      <img src="https://cdn-thumbs.imagevenue.com/41/d0/1a/ME17JSVH_t.jpg" alt="">
-    </div> -->
-  </div>
+
+  </div> -->
     
 
 </template>
