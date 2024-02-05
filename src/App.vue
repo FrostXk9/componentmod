@@ -13,7 +13,6 @@
 import NavbarComp from './components/NavigationBar.vue';
 import LoaderCompVue from './components/LoaderComp.vue';
 import FooterComp from './components/FooterComp.vue';
-// import AOS from 'aos'
 
 export default {
 
