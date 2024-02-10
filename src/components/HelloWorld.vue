@@ -2,11 +2,11 @@
 <!-- data-aos="fade-up" data-aos-anchor-placement="center-center" -->
   <div class="position-relative overflow-hidden p-3 text-center" id="landingPage">
 
-    <div class="col-md-6 p-lg-5 mx-auto my-5">
+    <div class="col-md-6 p-lg-5 mx-auto">
       
       <div id="rotate">
         <div class="rtpov">
-          <p>We Teach</p>
+          <p class="text-decoration-underline fw-bold">We Teach</p>
           <div class="words">
             <span class="word">Innovative</span>
             <span class="word">Excelence</span>
@@ -17,10 +17,10 @@
         </div>
       </div>
 
-      <div class="display-2 fw-bold text-black">Twelve Two <span id="floatLikeInt">2</span></div>
-      <!-- <h5>We grow 2</h5> -->
+      <div class="display-1 fw-bold text-black my-3" id="fontify">Twelve Two <span id="floatLikeInt">2</span></div>
+      <!-- <p class="text-end mx-5 px-5 fw-bold small">A mindset is all you need</p> -->
 
-        <h3 class="fw-normal text-black text-start fs-4 mb-5 my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla eius totam possimus maxime? Ipsa quo illo vitae vero eum, repellat commodi inventore omnis rem molestias quaerat quisquam suscipit incidunt! Tempora!</h3>
+        <p class="fw-normal text-black text-center mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla eius totam possimus maxime? Ipsa quo illo vitae vero eum, repellat commodi inventore omnis rem molestias quaerat quisquam suscipit incidunt! Tempora!</p>
 
       <div class="d-flex gap-3 justify-content-center lead fw-normal">
 
@@ -33,10 +33,10 @@
 
     <div class="container">
       <h3>Stay updated with us <i class="fa-regular fa-calendar-check fa-lg" style="color: #000000;"></i></h3>
-      <p class="small text-center">Build your knowledge in money</p>
+      <p class="small text-center text-black-50">Build your knowledge in money</p>
     </div>
 
-    <div class="comtainer-fluid my-4 mx-4 p-1 d-flex justify-content-evenly" id="iconBox">
+    <div class="container-fluid my-0 mx-4 p-1 d-flex justify-content-evenly" id="iconBox">
 
       <div class="d-flex">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="61" viewBox="0 0 54 61" fill="none">
@@ -47,7 +47,7 @@
 
         <div id="text">Check out latest Events
           <div>
-            <button class="btn mt-1" id="">Book Event</button>
+            <button class="btn mt-1" id="btn">Book Event</button>
           </div>
         </div>
 
@@ -61,7 +61,7 @@
         </svg>
         <div id="text">Webinars happening:
           <div>
-            <button class="btn mt-1">View Live</button>
+            <button class="btn mt-1" id="btn">View Live</button>
           </div>
         </div>
       </div>
@@ -74,33 +74,14 @@
         </svg>
         <div id="text">Our new Products:
           <div>
-            <button class="btn mt-1">View shop</button>
+            <button class="btn mt-1" id="btn">View shop</button>
           </div>
         </div>
       </div>
     </div>
     
   </div>
-
-  <!-- data-aos="fade-right" data-aos-anchor-placement="center-center" -->
-  <!-- <div id="checkEvents">
-    <div class="container pt-5">
-      <h1 class="text-center pt-2 display-4 fw-bold text-uppercase" data-aos="fade-up" data-aos-anchor-placement="center-center">What are we about</h1>
-      <div class="container d-flex justify-content-evenly">
-        <div id="cardOne" data-aos="fade-right" data-aos-anchor-placement="center-center">
-
-        </div>
-        <div id="card" data-aos="fade-left" data-aos-anchor-placement="center-center">
-
-        </div>
-      </div>
-
-
-    </div>
-
-  </div> -->
     
-
 </template>
 
 <script>
@@ -129,36 +110,36 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-/* #bg{
-  background-image: url("https://cdn-images.imagevenue.com/cc/18/fa/ME17JSYC_o.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  right: 50%;
-  height: 300px;
-  width: 300px;
-} */
 
-#card{
-  height: 190px;
-  width: 190px;
-  border: 1px solid black;
-  background-image: url("https://cdn-images.imagevenue.com/cc/18/fa/ME17JSYC_o.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-#cardOne{
-  height: 190px;
-  width: 190px;
-  border: 1px solid black;
+#fontify{
+  /* background-color: rgba(255, 255, 255, 0.266);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  border-radius: 30px;
+  box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.241); */
+  background: linear-gradient(to right,#136e03, rgb(55, 255, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-#checkEvents{
-  min-height: 100vh;
-  background-color: rgb(227, 227, 227);
-  
+#btn{
+  font-weight: 600;
+}
+
+
+#btn:hover{
+  color: rgb(53, 230, 3);
+  background-color: rgba(245, 245, 245, 0.214);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  transform: scale(100.5%);
 }
 
 
@@ -171,8 +152,14 @@ export default {
 #floatLikeInt{
   position: absolute;
   font-size: 30px;
-  color: rgb(0, 216, 0);
+  font-weight: 800;
+  text-decoration: underline green;
+  background: linear-gradient(to right,#59ff00, rgb(7, 105, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 .rtpov {
   color: rgb(0, 0, 0);
   font-family: "Poppins", sans-serif;
@@ -190,6 +177,7 @@ export default {
   overflow: hidden;
   position: relative;
 }
+
 .word {
   display: block;
   height: 100%;
@@ -240,13 +228,16 @@ export default {
     transform: translateY(-400%);
   }
 }
+
 h3 {
   margin: 40px 0 0;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   display: inline-block;
   margin: 0 10px;
@@ -262,14 +253,47 @@ a {
 
 #text{
   padding: 17px  0px;
-  color: rgb(14, 87, 205);
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
+
+/* Media queries */
 
 @media (max-width: 550px) {
   #iconBox{
     display: flex;
     flex-direction: column;
+    padding-left: 120px !important;
+  }
+
+  #landingPage{
+    padding-top: 70px !important;
+  }
+}
+
+
+@media (max-width: 450px) {
+  #iconBox{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px !important;
+  }
+
+  #landingPage{
+    padding-top: 70px !important;
+  }
+}
+
+
+@media (max-width: 325px) {
+  #iconBox{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px !important;
+  }
+
+  #landingPage{
+    padding-top: 70px !important;
   }
 }
 

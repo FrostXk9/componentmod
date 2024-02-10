@@ -40,7 +40,7 @@
     }
 
     #btn:hover {
-        color: rgb(7, 7, 7);
+        color: rgb(14, 0, 108);
         /* mix-blend-mode: difference; */
     }
 
@@ -52,9 +52,9 @@
         top: 0;
         left: -50px;
         transform: skewX(50deg);
-        background-color: #ffffff68;
+        background-color: #4aab2681;
         z-index: 1;
-        transition: all 1s;
+        transition: all 0.6s;
     }
 
     /* USE :hover */
